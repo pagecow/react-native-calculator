@@ -367,7 +367,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativecalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pagecow.reactnativecalculator;
 				PRODUCT_NAME = ReactNativeCalculator;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -396,7 +396,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativecalculator;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pagecow.reactnativecalculator;
 				PRODUCT_NAME = ReactNativeCalculator;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SWIFT_VERSION = 5.0;
@@ -576,7 +576,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativecalculator.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pagecow.reactnativecalculator.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -602,7 +602,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.reactnativecalculator.NotificationService;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pagecow.reactnativecalculator.NotificationService;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
