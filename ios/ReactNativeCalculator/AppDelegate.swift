@@ -77,7 +77,11 @@ final class NativeNotifyPush: NSObject, UNUserNotificationCenterDelegate {
       "platform": "ios",
       "tokens": ["apnsToken": apnsToken],
     ]
-    body["appId"] = Int(appId) ?? appId
+    if let numericAppId = Int(appId) {
+      body["appId"] = numericAppId
+    } else {
+      body["appId"] = appId
+    }
 
     var request = URLRequest(url: registerURL)
     request.httpMethod = "POST"
